@@ -31,12 +31,4 @@ function validAnagram(string1, string2) {
   return true;
 }
 
-console.log(validAnagram("", ""));
-console.log(validAnagram("aaz", "zza")); // false
-console.log(validAnagram("anagram", "nagaram")); // true
-console.log(validAnagram("car", "rat")); // false
-console.log(validAnagram("awesome", "awesom")); // false
-console.log(validAnagram("qwerty", "qeywrt")); // true
-console.log(validAnagram("texttwisttime", "timetwisttext")); // true
-
 export default validAnagram;

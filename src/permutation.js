@@ -30,9 +30,4 @@ function isPermutation(arr1, arr2) {
   return true;
 }
 
-console.log(isPermutation([1, 2, 3], [3, 2, 1])); // true
-// console.log(isPermutation([1, 2, 3], [1, 2, 2])); // false
-// console.log(isPermutation([4, 5, 6], [6, 4, 5])); // true
-// console.log(isPermutation([7, 8, 9], [9, 8])); // false
-
 export default isPermutation;

@@ -1,0 +1,19 @@
+{
+	"name": "coding-interview",
+	"version": "1.0.0",
+	"description": "",
+	"main": "anagram.js",
+	"type": "module",
+	"scripts": {
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+		"test:anagram": "node --experimental-vm-modules node_modules/jest/bin/jest.js __test__/anagram.test.js",
+		"test:permutation": "node --experimental-vm-modules node_modules/jest/bin/jest.js __test__/permutation.test.js",
+		"test:pair-with-difference": "node --experimental-vm-modules node_modules/jest/bin/jest.js __test__/pairWithDifference.test.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}
